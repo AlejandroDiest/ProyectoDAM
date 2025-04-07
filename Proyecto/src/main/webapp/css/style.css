@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+#div1 {
+    width: 25%;
+    height: 15%;
+    margin: auto;
+    margin-top: 100px;
+}
+body {
+    background-color: #eceff1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color:red;
+    font-size: 44px;
+    margin-top: 40px;
+    font-weight: bold;
+    height: 65px;
+}
+#logo{
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    border-radius: 10px;
+    width: 300px;
+    border-top-right-radius: 10px;
+}
+#login_recuadro {
+    background: rgb(226, 217, 217);
+    padding: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#password, #email{
+    background: rgba(14, 14, 14, 0.122);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+}
+#boton_login{
+    width:80px;
+    background-color: red;
+    border: none;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 40%;
+    gap: 10px;
+    transition: background 0.35s ease;
+}
+#boton_login:hover{
+    background-color:rgba(255, 0, 0, 0.427);
+}
